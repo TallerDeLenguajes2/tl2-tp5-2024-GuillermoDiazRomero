@@ -32,11 +32,11 @@ public class ProductoController : ControllerBase
         }
     }
     [HttpPut("/api/Producto/{Id}")]
-    public IActionResult PutProducto(int Id, [FromBody] string dsc){
+    public IActionResult PutProducto(int IdProducto, string DescripcionProducto){
         try{
-            Productos prod = repoProd.DetallesProducto(Id);
-            prod.Descripcion = dsc;
-            repoProd.ModificarProducto(Id,prod);
+            Productos prod = repoProd.DetallesProducto(IdProducto);
+            prod.Descripcion = DescripcionProducto;
+            repoProd.ModificarProducto(IdProducto,prod);
             return Ok ();
         }
         catch (Exception ex){
