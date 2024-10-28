@@ -3,18 +3,29 @@ namespace models;
 public class Presupuestos{
     private int idPresupuesto;
     private string nombreDestinatario;
+    private string fechaCreacion;
     List<PresupuestosDetalle> detalle;
+
+    public Presupuestos(int idPresupuesto, string nombreDestinatario, string fechaCreacion, List<PresupuestosDetalle> detalle)
+    {
+        this.idPresupuesto = idPresupuesto;
+        this.nombreDestinatario = nombreDestinatario;
+        this.fechaCreacion = fechaCreacion;
+        this.detalle = detalle;
+    }
+    public Presupuestos(int idPresupuesto, string nombreDestinatario, string fechaCreacion)
+    {
+        this.idPresupuesto = idPresupuesto;
+        this.nombreDestinatario = nombreDestinatario;
+        this.fechaCreacion = fechaCreacion;
+        detalle = new List<PresupuestosDetalle>();
+    }
+    
 
     public int IdPresupuesto { get => idPresupuesto; set => idPresupuesto = value; }
     public string NombreDestinatario { get => nombreDestinatario; set => nombreDestinatario = value; }
     public List<PresupuestosDetalle> Detalle { get => detalle; set => detalle = value; }
-
-    public Presupuestos(int idPresupuesto, string nombreDestinatario, List<PresupuestosDetalle> detalle)
-    {
-        this.idPresupuesto = idPresupuesto;
-        this.nombreDestinatario = nombreDestinatario;
-        this.detalle = detalle;
-    }
+    public string FechaCreacion { get => fechaCreacion; set => fechaCreacion = value; }
 
     public int MontoPresupuesto(){
         return detalle.Select(d => d.Producto.Precio * d.Cantidad).Sum();
