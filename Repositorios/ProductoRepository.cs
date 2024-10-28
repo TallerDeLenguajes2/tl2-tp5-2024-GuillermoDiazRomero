@@ -66,7 +66,7 @@ public class ProductoRepository
         Productos prod;
         using (SqliteConnection conexion = new SqliteConnection(conexionString))
         {
-            var query = "SELECT * FROM Productos WHERE idProducto = @id";
+            var query = "SELECT * FROM Productos WHERE idProductos = @id";
             conexion.Open();
             var command = new SqliteCommand(query, conexion);
             command.Parameters.AddWithValue("@id", id);

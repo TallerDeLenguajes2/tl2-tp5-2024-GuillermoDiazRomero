@@ -20,6 +20,8 @@ public class Presupuestos{
         this.fechaCreacion = fechaCreacion;
         detalle = new List<PresupuestosDetalle>();
     }
+
+    public Presupuestos(){}
     
 
     public int IdPresupuesto { get => idPresupuesto; set => idPresupuesto = value; }

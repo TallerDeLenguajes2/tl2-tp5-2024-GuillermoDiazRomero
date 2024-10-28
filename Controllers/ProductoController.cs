@@ -31,12 +31,12 @@ public class ProductoController : ControllerBase
             return BadRequest(404 + $" ERROR {ex.Message}");
         }
     }
-    [HttpPut("/api/Producto/{Id}")]
-    public IActionResult PutProducto(int IdProducto, string DescripcionProducto){
+    [HttpPut("/api/Producto/{id}")]
+    public IActionResult PutProducto(int id, string DescripcionProducto){
         try{
-            Productos prod = repoProd.DetallesProducto(IdProducto);
+            Productos prod = repoProd.DetallesProducto(id);
             prod.Descripcion = DescripcionProducto;
-            repoProd.ModificarProducto(IdProducto,prod);
+            repoProd.ModificarProducto(id,prod);
             return Ok ();
         }
         catch (Exception ex){
