@@ -29,6 +29,7 @@ public class ProductoRepository
             var query = @"UPDATE Productos
                         SET Descripcion = @dscr, Precio = @precio
                         WHERE idProducto = @id";
+            conexion.Open();
             var command = new SqliteCommand(query, conexion);
             command.Parameters.Add(new SqliteParameter("@id", id));
             command.Parameters.Add(new SqliteParameter("@dscr", prod.Descripcion));
@@ -62,28 +63,22 @@ public class ProductoRepository
 
     public Productos DetallesProducto(int id)
     {
+        Productos prod;
         using (SqliteConnection conexion = new SqliteConnection(conexionString))
         {
-            var query = "SELECT Productos WHERE idProductos = (@id)";
+            var query = "SELECT * FROM Productos WHERE idProducto = @id";
+            conexion.Open();
             var command = new SqliteCommand(query, conexion);
             command.Parameters.AddWithValue("@id", id);
             using (SqliteDataReader reader = command.ExecuteReader())
             {
                 reader.Read();
-                try
-                {
-                    Productos prod = new Productos(Convert.ToInt32(reader[0]), Convert.ToString(reader[1]) ?? "No tiene descripcion", Convert.ToInt32(reader[2]));
-                    conexion.Close();
-                    return prod;
-                }
-                catch (Exception ex)
-                {
-                    conexion.Close();
-                    return new Productos(-9999, null, 0);
-                }
-
+                prod = new Productos(Convert.ToInt32(reader[0]), Convert.ToString(reader[1]) ?? "No tiene descripcion", Convert.ToInt32(reader[2]));
+                conexion.Close();
             }
         }
+        return prod;
+
     }
 
     public void EliminarProducto(int id)

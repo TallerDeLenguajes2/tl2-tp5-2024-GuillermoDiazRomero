@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {}
+    "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {
+    "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
+        "projectUniqueName": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
         "projectName": "tl2-tp5-2024-GuillermoDiazRomero",
-        "projectPath": "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
+        "projectPath": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
         "packagesPath": "C:\\Users\\guill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\obj\\",
+        "outputPath": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guill\\AppData\\Roaming\\NuGet\\NuGet.Config"

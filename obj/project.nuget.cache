@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X7OGUoZf9SklArl3lzW43cl7R+Hpr6MBflftbJEnbiHoiv4XB0J63+9QlyDonpaiXAq3NevzyQ8eay5ofrNH1A==",
+  "dgSpecHash": "+dhw2lAP1iyjwyHPvLCzqx3aFZCcBl6rLsGDj5yWxoWpGB6tRD1T707LPwg3Vh7PbBHID/BJgU+rA7z76VkTTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
+  "projectFilePath": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guill\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
     "C:\\Users\\guill\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
