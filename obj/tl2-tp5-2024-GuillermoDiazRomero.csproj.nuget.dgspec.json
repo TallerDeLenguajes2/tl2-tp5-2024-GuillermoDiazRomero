@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {}
+    "c:\\Users\\Guille\\Desktop\\Facultad\\Modulo 6\\Taller de Lenguajes II\\Práctica\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {}
   },
   "projects": {
-    "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {
+    "c:\\Users\\Guille\\Desktop\\Facultad\\Modulo 6\\Taller de Lenguajes II\\Práctica\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
+        "projectUniqueName": "c:\\Users\\Guille\\Desktop\\Facultad\\Modulo 6\\Taller de Lenguajes II\\Práctica\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
         "projectName": "tl2-tp5-2024-GuillermoDiazRomero",
-        "projectPath": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
-        "packagesPath": "C:\\Users\\guill\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\guill\\Desktop\\Ingenieria Informatica\\Modulo 6\\Taller de Lenguajes II\\tl2-tp5-2024-GuillermoDiazRomero\\obj\\",
+        "projectPath": "c:\\Users\\Guille\\Desktop\\Facultad\\Modulo 6\\Taller de Lenguajes II\\Práctica\\tl2-tp5-2024-GuillermoDiazRomero\\tl2-tp5-2024-GuillermoDiazRomero.csproj",
+        "packagesPath": "C:\\Users\\Guille\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Guille\\Desktop\\Facultad\\Modulo 6\\Taller de Lenguajes II\\Práctica\\tl2-tp5-2024-GuillermoDiazRomero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guill\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Guille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

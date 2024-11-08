@@ -44,7 +44,7 @@ public class PresupuestoController : ControllerBase
     [HttpGet("/api/Presupuesto")]
     public ActionResult<List<Presupuestos>> GetListarPresupuestos(){
         try{
-            return Ok(repoPres.ListarPresupuestos());
+            return Ok(repoPres.Listar());
         }
         catch(Exception ex){
             return StatusCode(500,$"ERROR {ex.Message}");
